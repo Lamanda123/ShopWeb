@@ -1,0 +1,43 @@
+#header{
+	height: 50px;
+	width: 100%;
+	
+	display: flex;
+}
+#header #headerleft{
+	height: 100%;
+	flex:0.3;
+	
+	
+	line-height:50px ;
+}
+#header #headerleft p{
+	font-size: large;
+	font-weight: 500;
+	margin-left: 15px;	
+}
+#header #headerright{
+	flex:0.7;
+	height: 100%;
+	
+	text-align: center;
+	
+}
+#header #headerright #search{
+	height: 30px;
+	width:210px;
+	background-color: #EEEEEE;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #aaaaaa;
+	font-size: smaller;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#header #headerright img{
+	height: 15px;
+	height: 15px;
+	margin-top: 6px;
+	
+}
