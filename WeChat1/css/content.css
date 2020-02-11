@@ -1,0 +1,258 @@
+#content{
+	width: 100%;
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	background-color: #EEEEEE;
+	overflow: scroll;
+	
+}
+#content::-webkit-scrollbar{
+	display: none;
+}
+#content .xiang{
+	height: 40px;
+	width: 100%;
+	background-color: aqua;
+	border-bottom:1px #CCCCCC solid;
+	margin-bottom: 10px;
+	display: flex;
+	background-color: #FFFFFF;
+}
+ #content .xiang img{
+	 height: 25px;
+	 width: 25px;
+	 margin: 10px;
+ }
+ #content .xiang .xiangleft{
+	 display: flex;
+	 flex:0.9;
+	 align-items: center;
+ }
+ #content .xiang .xiangright{
+	 flex: 0.1;
+ 	 display: flex;
+ 	 align-items: center;
+	 margin-left:80px;
+ }
+ #content .xiang2{
+ 	height: 40px;
+ 	width: 100%;
+ 	background-color: aqua;
+ 	border-bottom:1px #CCCCCC solid;
+ 	
+ 	display: flex;
+ 	background-color: #FFFFFF;
+ }
+  #content .xiang2 img{
+ 	 height: 25px;
+ 	 width: 25px;
+ 	 margin: 10px;
+  }
+  #content .xiang2 .xiangleft{
+ 	 display: flex;
+ 	 flex:0.9;
+ 	 align-items: center;
+  }
+  #content .xiang2 .xiangright{
+ 	 flex: 0.1;
+  	 display: flex;
+  	 align-items: center;
+	 margin-left:80px;
+  }
+  #content #xiangji{
+	  height: 40px;
+	  width: 100%;
+	 
+  }
+  #content #xiangji img{
+  	  height: 25px;
+  	  width: 25px;
+  	  margin-left: 315px;
+  }
+ #content  #xiala{
+ 	  height: 70px;
+ 	  width: 100%;
+ 	
+	  text-align: center;
+	  color: blue;
+ }
+  #content  #mingpian{
+	  height: 70px;
+	  width: 100%;
+	  display: flex;
+	  background-color:#FFFFFF ;
+	  position: relative;
+	  margin-bottom: 10px;
+  }
+  #content  #mingpian #mytouxiang{
+  	  height: 80px;
+  	  width:25%;
+	  position: absolute;
+	  bottom: 20px;
+  }
+  #content  #mingpian #mytouxiang img{
+  	  height: 60px;
+  	  width:60%;
+	  margin-left:10px;
+	  border-radius: 10px;
+  }
+  #content  #mingpian #myname {
+  	  height: 80px;
+  	  width:65%;
+	  position: absolute;
+	  bottom: 15px;
+	  left:80px
+  }
+  #content  #mingpian #myname p{
+  	 font-size: smaller;
+  	  margin-top: 10px;
+  }
+  #content  #mingpian #myright {
+  	 height: 80px;
+  	 width:10%;
+  	 right:10px;
+	  position: absolute;
+  	 
+	  }
+  #content  #mingpian #myright img {
+	 height: 15px;
+	margin-top: 5px;
+  	 
+ }
+ #content #tongxunlunav{
+	 height: 162px;
+	 width: 100%;
+	 background-color: #0000FF;
+ }
+ #content .zimu{
+	 width: 100%;
+	 height: 25px;
+	 background-color: #CCCCCC;
+	
+ }
+#content .zimu p{
+	font-size: smaller;
+	margin-left: 5px;
+	}
+#content #youcelanzimu{
+	position: absolute;
+	right:2px;
+	top:150px;
+}
+#content #youcelanzimu ul{
+	list-style: none;
+}
+#content #youcelanzimu ul li a{
+	text-decoration: none;
+}
+
+
+
+#content .contents{
+
+	display: flex;
+
+	width: 100%;
+
+	height: 60px;
+
+	border-bottom: 1px solid whitesmoke;
+
+}
+
+#content .contents .contentsLeft{
+
+	flex: 0.2;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	
+
+	position: relative;
+
+}
+
+#content .contents .contentsCenter{
+
+	flex: 0.65;
+
+}
+
+#content .contents .contentsRight{
+
+	flex: 0.15;
+
+	font-size: 12px;
+
+}
+
+#content .contents .contentsLeft img
+
+{
+
+	width: 50px;
+
+	height: 50px;
+
+}
+
+#content .contents .contentsLeft .msg{
+
+	width: 18px;
+
+	height: 18px;
+
+	border-radius: 50%;
+
+	color: white;
+
+	background-color: red;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	position: absolute;
+
+	top: 1px;
+
+	right: 5px;
+
+}
+
+#content .contents .contentsCenter .top{
+
+	font-size: 18px;
+
+}
+
+#content .contents .contentsCenter .bottom{
+
+	font-size: 11px;
+
+}
+
+#content .contents .contentsRight span{
+
+	margin-top: 11%;
+
+	display: inline-flex;
+
+	color: #D3D3D3;
+
+}
+
+#content .contents .contentsCenter .bottom
+
+{
+
+	color: #D3D3D3;
+
+}
